@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Cart</title>
+  <link href="../css/global.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css//footer.css">
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/pages/cart.css">
+</head>
+<body style="height: 100vh;
+  display: grid;
+grid-template-rows: auto 1fr auto;
+align-items: center;  ">
+    <header class="flex">
+    <a class="logo" href="../index.html">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <span style="font-weight:bold;"> AWU</span>
+      <p style="letter-spacing: 0.5px;">shopping</p>
+     </a>
+    <div class="links">
+      <a class="cart border" href="">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="prodcut-number">2</span>
+        $0.00</a>
+      <a class="sign-in" href="signin.html" >
+        <i class="fa-solid fa-right-to-bracket"></i>
+        sign in</a>
+      <a class="register" href="register.html">
+        <i class="fa-solid fa-user-plus"></i>
+        register</a>
+    </div>
+  </header>
+  <main  style="text-align: center;">
+    <section class="cart ">
+      <article class="product flex">
+        <button>
+          <i class="fa-solid fa-trash-can"></i>
+        </button>
+        <p class="price">$133</p>
+        <div class="flex" style="margin-right: 1rem;" >
+          <button class="decrease">-</button>
+          <div class="quantity">3</div>
+          <button class="increase">+</button>
+        </div>
+        <p class="title">product title</p>
+        <img src="../image/6.webp" style="width: 70px; height:70px; border-radius: 0.22rem" >
+      </article>
+    </section>
+     <section class="cart ">
+    
+         <article class="product flex">
+        <button>
+          <i class="fa-solid fa-trash-can"></i>
+        </button>
+        <p class="price">$133</p>
+        <div class="flex" style="margin-right: 1rem;" >
+          <button class="decrease">-</button>
+          <div class="quantity">3</div>
+          <button class="increase">+</button>
+        </div>
+        <p class="title">product title</p>
+        <img src="../image/5.webp" style="width: 70px; height:70px; border-radius: 0.22rem" >
+      </article>
+         <article class="product flex">
+        <button>
+          <i class="fa-solid fa-trash-can"></i>
+        </button>
+        <p class="price">$133</p>
+        <div class="flex" style="margin-right: 1rem;" >
+          <button class="decrease">-</button>
+          <div class="quantity">3</div>
+          <button class="increase">+</button>
+        </div>
+        <p class="title">product title</p>
+        <img src="../image/4.webp" style="width: 70px; height:70px; border-radius: 0.22rem" >
+      </article>
+     </section>
+    <button class="clear">
+      <i class="fa-solid fa-trash-can"></i>
+      clear cart</button>
+    <section class="summery">
+      <h1>Cart summery</h1>
+      <div class="flex">
+        <p class="subtotal">subtotal</p>
+        <p>$199</p>
+      </div>
+      <button class="checkout" disabled="">
+        checkout
+      </button>
+      <a href="../pages/signin.html">please sign in to countinue</a>
+    </section>
+  </main>
+    <footer>Designed and developer by <span> ali hassan</span>
+    2024
+  </footer>
+</body>
+</html>
